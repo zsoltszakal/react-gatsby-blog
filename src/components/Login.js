@@ -11,6 +11,9 @@ const config = {
   authParams: {
     pkce: true,
     responseType: ['token', 'id_token']
+  },
+  features: {
+    registration: true
   }
 };
 
